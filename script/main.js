@@ -72,7 +72,10 @@
      }
      function closeLightbox(){
        debugger;
-       // Homework
+
+       let lightbox = document.querySelector('.lightbox');
+       lightbox.style.display='none';
+       document.body.style.overflow = 'scroll';
      }
      // initialize the app
      // theSubhead.firstChild.nodeValue = dynamicContent['spring'].headline;
